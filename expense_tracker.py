@@ -15,8 +15,8 @@ def show_expenses():
         return
     for number, expense in enumerate(expenses, start=1):
      
-    print(f"{number}. {expense['description']} - "
-        f"{expense['amount']:.2f}") 
+        print(f"{number}. {expense['description']} - "
+            f"{expense['amount']:.2f}") 
      
 def show_total():
     # Travail de l'etudiant B
